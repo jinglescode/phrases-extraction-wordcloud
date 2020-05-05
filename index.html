@@ -68,7 +68,7 @@
         <div class="row">
           <div class="col s12">
             <h1>Demo</h1>
-            <span class="card-title">Train Agent</span>
+            <span class="card-title">Input sentences separate by break line</span>
 
             <div class="row">
 
@@ -83,12 +83,12 @@
                   <div class="input-field col s12">
                     <label for="input_num_words">Number of words in wordcloud</label>
                     <input type="text" id="input_num_words" placeholder="example: 15" value="15">
-                    <small class="form-text text-muted">Number of times agent play against each other in simulation</small>
+                    <small class="form-text text-muted">Word cloud will show top frequency phrases</small>
                   </div>
                   <div class="input-field col s12">
                     <textarea id="input_stopwords" class="materialize-textarea" rows="10"></textarea>
-                    <label for="input_stopwords">Words to remove</label>
-                    <small class="form-text text-muted">Words you want to deliberately remove, separate by break line</small>
+                    <label for="input_stopwords">Words you want to deliberately remove</label>
+                    <small class="form-text text-muted">Separate by break line</small>
                   </div>
                   <div class="col s12">
                     <button class="waves-effect waves-light btn" id="btn_agent_simulation" onclick="read_text()">Draw Word Cloud</button>
