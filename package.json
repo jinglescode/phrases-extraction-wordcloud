@@ -1,0 +1,25 @@
+{
+  "name": "phrases-extraction-wordcloud",
+  "version": "1.0.0",
+  "description": "Extracting n-grams from text and display in beautiful D3 word cloud.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "git push https://github.com/jinglescode/phrases-extraction-wordcloud.git master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinglescode/phrases-extraction-wordcloud.git"
+  },
+  "keywords": [
+    "machine-learning",
+    "javascript",
+    "natural-language-processing"
+  ],
+  "author": "Khok Hong Jing (Jingles)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinglescode/phrases-extraction-wordcloud/issues"
+  },
+  "homepage": "https://jinglescode.github.io/phrases-extraction-wordcloud"
+}
