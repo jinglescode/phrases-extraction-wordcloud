@@ -17,7 +17,7 @@ function get_mock_stopwords(){
   $(input_stopwords).text('wir haben\nwar sehr\nsehr gut\nwir waren');
 }
 
-function get_mocK_text(){
+function get_mock_text(){
   input_text = "Pleasant 10 min walk along the sea front to the Water Bus. restaurants etc. Hotel was comfortable breakfast was good - quite a variety. Room aircon didn't work very well. Take mosquito repelant!\n" +
   "Really lovely hotel. Stayed on the very top floor and were surprised by a Jacuzzi bath we didn't know we were getting! Staff were friendly and helpful and the included breakfast was great! Great location and great value for money. Didn't want to leave!\n" +
   "Ett mycket bra hotell. Det som drog ner betyget var att vi fick ett rum under taksarna dr det endast var full sthjd i 80 av rummets yta.\n" +
@@ -520,6 +520,6 @@ function get_mocK_text(){
 }
 
 get_mock_stopwords();
-get_mocK_text();
+get_mock_text();
 
 read_text();
